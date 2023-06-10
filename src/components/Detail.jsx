@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import { useParams } from 'react-router-dom'
 
-const Detail = () => {
+const Detail = (phone) => {
+
+  
+  const { phoneId } = useParams()
+
+
   return (
-    <div>Detail</div>
+    <div>dd</div>
   )
 }
 
