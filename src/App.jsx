@@ -1,9 +1,7 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
 import PhoneListPage from './pages/PhoneListPage'
 import Detail from './components/Detail'
-
 import './App.css'
-import axios from 'axios'
 
 function App() {
 

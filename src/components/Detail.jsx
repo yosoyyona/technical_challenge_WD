@@ -7,6 +7,7 @@ const Detail = ({phone}) => {
   const { phoneId } = useParams()
   const [detail, setDetail] = useState(null)
 
+  // use prop or axios
   useEffect(() => {
     if(phone) setDetail(phone)
     else {
@@ -19,7 +20,7 @@ const Detail = ({phone}) => {
     }
   }, [phone, phoneId])
 
-
+  // 'phone' has to be 'detail' but it doesn't work
   return (
     <div>
       <div>
